@@ -59,7 +59,7 @@ function getCurrentColor() {
 
 lazyCoder(0, '#generate-board').onclick = () => {
   if (lazyCoder(0, '.input-text').value === '') {
-    window.alert('Board inválido!');
+    window.alert('Isso Faz Sentido?');
   } else {
     clearBoard();
     generateElements(Number(lazyCoder(0, '.input-text').value));
