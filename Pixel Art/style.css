@@ -1,0 +1,96 @@
+body {
+  background-color: #5f5f8b;
+  font-size: 50%;
+  margin: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.color {
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  margin: 0 10px;
+  transition: transform 500ms ease;
+  width: 50px;
+}
+
+.color:hover {
+  transform: scale(1.2);
+}
+
+.btn-reset {
+  background-color: lightgrey;
+  border-radius: 2px;
+  border-style: unset;
+  font-size: 15px;
+  height: 30px;
+  margin: 20px 0;
+  width: 120px;
+}
+
+.board {
+  margin: 0 auto;
+  padding: 0;
+  width: fit-content;
+}
+
+.line {
+  display: grid;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.buttons {
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.input-text {
+  height: 20px;
+  padding: 0;
+  width: 40px;
+}
+
+.gen-btn { 
+  border-radius: 2px;
+  border-style: unset;
+  font-size: 15px;
+  height: 40px;
+  margin-left: 10px;
+  width: 40px;
+}
+
+.rocket {
+  height: 100%;
+  margin-left: -5px;
+  width: auto;
+}
+
+.selected {  
+  border-color: white;
+}
+
+.div-color {
+  margin-top: 20px;
+}
+
+.btn-color {
+  background-color: lightgrey;
+  border-radius: 2px;
+  border-style: unset;
+  font-size: 15px;
+  height: 30px;  
+}
